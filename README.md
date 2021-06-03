@@ -1,2 +1,2 @@
-# MonishaMandal_SimplePortfolio
+# SimplePortfolio
 
