@@ -1,9 +1,18 @@
 module.exports = {
+  pathPrefix: "/MonishaMandal_SimplePortfolio",
   plugins: [
+    `gatsby-plugin-offline`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-sharp`,
+      options: {
+        // The option defaults to true
+        checkSupportedExtensions: false,
+      },
+    },
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -19,6 +28,7 @@ module.exports = {
         path: `${__dirname}/src/pages/`,
       },
     },
+    
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
