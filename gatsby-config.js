@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/MonishaMandal",
+  pathPrefix: `/MonishaMandal`,
   plugins: [
     `gatsby-plugin-offline`,
     `gatsby-plugin-sass`,
