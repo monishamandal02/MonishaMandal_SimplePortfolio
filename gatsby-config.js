@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/MonishaMandal_SimplePortfolio",
+  pathPrefix: "/MonishaMandal",
   plugins: [
     `gatsby-plugin-offline`,
     `gatsby-plugin-sass`,
@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Monisha Mandal`,
+        short_name: `Portfolio`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
